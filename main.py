@@ -48,3 +48,4 @@ def compare():
 
 total_turns_taken = compare()
 print(f"You have guessed the right number in {total_turns_taken} turns")
+speak(f"You have guessed the right number in {total_right} turns")
