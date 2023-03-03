@@ -46,5 +46,5 @@ def compare():
 
     return count
 
-total_right = compare()
-print(f"You have guessed the right number in {total_right} turns")
+total_turns_taken = compare()
+print(f"You have guessed the right number in {total_turns_taken} turns")
